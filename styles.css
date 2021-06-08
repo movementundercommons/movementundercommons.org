@@ -13,9 +13,17 @@
     
 }
 
+/* bold text around team members */
 span {
     font-weight: bold;
 }
+
+/* column 1, h2 headers */
+h2 {
+    color: orangered;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 
 
