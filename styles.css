@@ -13,6 +13,16 @@
     
 }
 
+h2 {
+    color: gray;
+}
+
+body{
+    max-width:;
+    
+}
+
+
 
 /* -----------------------RESPONSIVE: DESKTOP STYLES-------------------- */
 @media screen and (min-width: 1250){
