@@ -10,23 +10,40 @@
 
 /* ------------------------------------ GLOBAL STYLES ------------------------------------ */
 *{
-    
-}
-
-/* bold text around team members */
-span {
-    font-weight: bold;
-}
-
-/* column 1, h2 headers */
-h2 {
-    color: purple;
+    font-family: 'Cabin', sans-serif;
 }
 
 .row {
     margin: 2em;
 }
 
+#logo {
+    height: 50px;
+    margin: 25px;
+}
+
+header, footer {
+    background-color: rgb(88, 86, 214);
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* column 1, h2 headers */
+main h2 {
+    color: rgb(88, 86, 214);
+    font-size: 1.5em;
+}
+
+/* bold text around team members */
+span {
+    font-weight: 900;
+}
+
+#quote1, #quote2 {
+    background-color: rgb(88, 86, 214);
+}
 
 
 
