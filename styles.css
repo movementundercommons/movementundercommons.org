@@ -41,8 +41,12 @@ span {
     font-weight: 900;
 }
 
+p {
+    padding: 25px;
+}
+
 #quote1, #quote2 {
-    background-color: rgb(88, 86, 214);
+    background-color: rgba(88, 86, 214, 0.9);
     color: white;
 }
 
