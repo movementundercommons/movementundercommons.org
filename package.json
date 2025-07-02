@@ -5,14 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "devLint": "tsc -b && vite",
     "build": "tsc -b && vite build",
+    "buildIgnore": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-router/dev": "^7.6.1",
+    "@types/d3": "^7.4.3",
+    "@types/p5": "^1.7.6",
     "@types/styled-components": "^5.1.34",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.16.0",
+    "motion": "^12.16.0",
+    "p5": "^2.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router": "^7.5.0",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
