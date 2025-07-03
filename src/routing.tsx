@@ -53,4 +53,7 @@ export const routes: Array<Route> = [
 
 ];
 
-export const router = createBrowserRouter(routes, { basename: import.meta.env.PROD ? "/temp/data-portraits/" : "/" });
+/* The following `basename` configuration was used for testing on the development server and 
+should be modified if necessary for the production deployment location */
+// export const router = createBrowserRouter(routes, { basename: import.meta.env.PROD ? "/temp/data-portraits/" : "/" });
+export const router = createBrowserRouter(routes, { basename: "/" });

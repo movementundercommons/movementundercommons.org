@@ -4,7 +4,7 @@ This repository holds source code for the redesigned website for The Movement Un
 
 # Build
 
-To build from source, run `npm run build`. To build while ignoring errors from TypeScript linting, run `npm run buildIgnore`. To run a local development server for the source code, run `npm run dev`. Building and running development servers requires most recently updated Node (21.3.0+) and npm (10.2.4+), due to latest requirements from the underlying Vite package environment. The resulting build output is placed in a folder named `dist/`.
+To start, install dependencies by running `npm i`. To generate a production build from source, run `npm run build`. To build while ignoring errors from TypeScript linting, run `npm run buildIgnore`. To run a local development server for the source code, run `npm run dev`. Building and running development servers requires updated Node (21.3.0+) and npm (10.2.4+), due to latest requirements from the underlying Vite package environment. The resulting build output is placed in a folder named `dist/`.
 
 # Construction
 
@@ -56,6 +56,10 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule . /index.html [L]
 ```
+
+# Production basename
+
+Client-side routing assumes a base URL path of `/`, i.e., the home directory in which the production build is deployed. This path assumes the location of all routes and assets to be prefixed with `[base domain URL]/`, e.g., `movementundercommons.org/`. If deploying to a subfolder or subdirectory on the base domain, e.g., `[base domain URL]/some-other-folder/`, you must modify the `basename` property in `src/routing.tsx` within the `createBrowserRouter()` call to properly direct all routes through the necessary base URL.
 
 # Metadata and link previews
 
