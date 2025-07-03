@@ -149,7 +149,7 @@ const People = () => {
 
                 <PeopleUl>
                     <Subheader>Website</Subheader>
-                    <PeopleLi>Steven Geofrey<HyperlinkPopout url={"https://fluidencodings.com"} /></PeopleLi>
+                    <PeopleLi>Steven Geofrey<HyperlinkPopout url={"https://sgeofrey.info"} /></PeopleLi>
                     <PeopleLi>Jack Rifkin<HyperlinkPopout url={"https://www.jackrifk.in"} /></PeopleLi>
                 </PeopleUl>
                 <PeopleUl>
