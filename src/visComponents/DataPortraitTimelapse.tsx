@@ -326,7 +326,7 @@ const DataPortraitTimelapse = ({ whichPortrait }: { whichPortrait: WhichPortrait
     let useCaptionText;
     if (whichPortrait === WhichPortraitTimelapse.Val) {
         useFrames = valDrummingFrames;
-        useCaptionText = "Excerpt of Portrait of Val Drumming (2022)";
+        useCaptionText = "Portrait of Val Drumming (excerpts)";
 
     } else if (whichPortrait === WhichPortraitTimelapse.ValFootage) {
         useFrames = valFootageFrames;
@@ -334,19 +334,19 @@ const DataPortraitTimelapse = ({ whichPortrait }: { whichPortrait: WhichPortrait
 
     } else if (whichPortrait === WhichPortraitTimelapse.Jess) {
         useFrames = jessPortraitFrames;
-        useCaptionText = "Excerpt of Portrait of Jess Dancing Burlesque (2022)";
+        useCaptionText = "Portrait of Jess Dancing Burlesque (excerpts)";
 
     } else if (whichPortrait === WhichPortraitTimelapse.Robin) {
         useFrames = robinPortraitFrames;
-        useCaptionText = "Excerpt of Portrait of Robin Conducting Traffic (2022)";
+        useCaptionText = "Portrait of Robin Conducting Traffic (excerpts)";
 
     } else if (whichPortrait === WhichPortraitTimelapse.Eggplant) {
         useFrames = eggplantPortraitFrames;
-        useCaptionText = "Excerpt of Portrait of Abdul Picking Eggplants (2022)";
+        useCaptionText = "Portrait of Abdul Picking Eggplants (excerpts)";
 
     } else if (whichPortrait === WhichPortraitTimelapse.Baklava) {
         useFrames = baklavaPortraitFrames;
-        useCaptionText = "Excerpt of Portrait of Basma Making Baklava (2022)";
+        useCaptionText = "Portrait of Basma Making Baklava (excerpts)";
 
     } else {
         useFrames = [];
