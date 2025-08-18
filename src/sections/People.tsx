@@ -98,9 +98,11 @@ const People = () => {
         <PeopleContainer>
             <TeamColumn>
                 <PeopleUl>
+                    <Subheader>Project Lead</Subheader>
+                    <PeopleLi>Grisha Coleman<HyperlinkPopout url={"https://camd.northeastern.edu/people/grisha-coleman/"} /></PeopleLi>
+                </PeopleUl>
+                <PeopleUl>
                     <Subheader>Data Collection</Subheader>
-                    <PeopleLi>Jack Rifkin<HyperlinkPopout url={"https://www.jackrifk.in"} /></PeopleLi>
-                    <PeopleLi>Kian Chan</PeopleLi>
                     <PeopleLi>Amira Samiy<HyperlinkPopout url={"http://amirasamiy.squarespace.com/"} /></PeopleLi>
                     <PeopleLi className="inactive">Jiaying Brust</PeopleLi>
                     <PeopleLi className="inactive">Zakiya Johnson</PeopleLi>
@@ -127,19 +129,26 @@ const People = () => {
                 </PeopleUl>
                 <PeopleUl>
                     <Subheader>Motion Capture & Engineering</Subheader>
+                    <PeopleLi>2M<HyperlinkPopout url={"https://www.2mel.nl/"} /></PeopleLi>
                     <PeopleLi>Aston McCullough<HyperlinkPopout url={"https://bouve.northeastern.edu/directory/aston-mccullough/"} /></PeopleLi>
                     <PeopleLi className="inactive">Tejaswi Gowda<HyperlinkPopout url={"https://search.asu.edu/profile/793113"} /></PeopleLi>
-                    <PeopleLi className="inactive">Poojan Vanani<HyperlinkPopout url={"https://search.asu.edu/profile/4761242"} /></PeopleLi>
-                    <PeopleLi className="inactive">Danyal Khorami<HyperlinkPopout url={"https://search.asu.edu/profile/4785358"} /></PeopleLi>
                     <PeopleLi className="inactive">Assegid Kidane<HyperlinkPopout url={"https://search.asu.edu/profile/215415"} /></PeopleLi>
                 </PeopleUl>
 
                 <PeopleUl>
                     <Subheader>Installation Design</Subheader>
-                    <PeopleLi>Ryan Jenkins<HyperlinkPopout url={"https://www.ryanjenkins.work/"} /></PeopleLi>
+                    <PeopleLi>Joseph Zeal-Henry</PeopleLi>
                     <PeopleLi>Heather Hart<HyperlinkPopout url={"https://www.heather-hart.com/"} /></PeopleLi>
                     <PeopleLi className="inactive">Celeste Martore<HyperlinkPopout url={"https://celestemartore.com/"} /></PeopleLi>
                 </PeopleUl>
+
+                <PeopleUl>
+                    <Subheader>Technical Production</Subheader>
+                    <PeopleLi>Ryan Jenkins<HyperlinkPopout url={"https://www.ryanjenkins.work/"} /></PeopleLi>
+                    <PeopleLi>Jeremy Stewart</PeopleLi>
+                    <PeopleLi>Brent Vander Werf</PeopleLi>
+                </PeopleUl>
+
                 <PeopleUl>
                     <Subheader>Creative Production & Administration</Subheader>
                     <PeopleLi>Constanza Armes Cruz</PeopleLi>
@@ -155,7 +164,7 @@ const People = () => {
                 <PeopleUl>
                     <Subheader>Data Ethics</Subheader>
                     <PeopleLi>Brian Michael Murphy<HyperlinkPopout url={""} /></PeopleLi>
-                    <PeopleLi className="inactive">Jessica Fjeld<HyperlinkPopout url={"https://cyber.harvard.edu/people/jfjeld"} /></PeopleLi>
+                    <PeopleLi className="inactive">Harvard Cyberlaw Clinic (Jessica Fjeld)<HyperlinkPopout url={"https://cyber.harvard.edu/people/jfjeld"} /></PeopleLi>
                 </PeopleUl>
                 <PeopleUl>
                     <Subheader>Additional Consultants</Subheader>
