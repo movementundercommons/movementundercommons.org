@@ -98,7 +98,7 @@ const People = () => {
         <PeopleContainer>
             <TeamColumn>
                 <PeopleUl>
-                    <Subheader>Project Lead</Subheader>
+                    <Subheader>Lead Artist</Subheader>
                     <PeopleLi>Grisha Coleman<HyperlinkPopout url={"https://camd.northeastern.edu/people/grisha-coleman/"} /></PeopleLi>
                 </PeopleUl>
                 <PeopleUl>
@@ -129,7 +129,7 @@ const People = () => {
                 </PeopleUl>
                 <PeopleUl>
                     <Subheader>Motion Capture & Engineering</Subheader>
-                    <PeopleLi>2M<HyperlinkPopout url={"https://www.2mel.nl/"} /></PeopleLi>
+                    <PeopleLi>2M (Coen Lauwerijssen)<HyperlinkPopout url={"https://www.2mel.nl/"} /></PeopleLi>
                     <PeopleLi>Aston McCullough<HyperlinkPopout url={"https://bouve.northeastern.edu/directory/aston-mccullough/"} /></PeopleLi>
                     <PeopleLi className="inactive">Tejaswi Gowda<HyperlinkPopout url={"https://search.asu.edu/profile/793113"} /></PeopleLi>
                     <PeopleLi className="inactive">Assegid Kidane<HyperlinkPopout url={"https://search.asu.edu/profile/215415"} /></PeopleLi>
@@ -145,8 +145,8 @@ const People = () => {
                 <PeopleUl>
                     <Subheader>Technical Production</Subheader>
                     <PeopleLi>Ryan Jenkins<HyperlinkPopout url={"https://www.ryanjenkins.work/"} /></PeopleLi>
-                    <PeopleLi>Jeremy Stewart</PeopleLi>
-                    <PeopleLi>Brent Vander Werf</PeopleLi>
+                    <PeopleLi>Jeremy Stewart<HyperlinkPopout url={"https://www.masarystudios.com"} /></PeopleLi>
+                    <PeopleLi>Brent Vander Werf<HyperlinkPopout url={"https://www.tripyramid.com"} /></PeopleLi>
                 </PeopleUl>
 
                 <PeopleUl>
@@ -168,7 +168,8 @@ const People = () => {
                 </PeopleUl>
                 <PeopleUl>
                     <Subheader>Additional Consultants</Subheader>
-                    <PeopleLi className="inactive">Melissa Cliver, Design Strategist</PeopleLi>
+                    <PeopleLi className="inactive">Melissa Cliver, Design Strategy</PeopleLi>
+                    <PeopleLi className="inactive">Brenda McCaffrey, Engineering</PeopleLi>
                 </PeopleUl>
             </TeamColumn>
             <SponsorsColumn>
